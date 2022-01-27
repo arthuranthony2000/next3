@@ -1,3 +1,5 @@
+// http://localhost:3000/movies
+
 export async function getServerSideProps(context) {
 
     const res = await fetch(`http://www.omdbapi.com/?apikey=6d17a1f&s=bagdad`)
